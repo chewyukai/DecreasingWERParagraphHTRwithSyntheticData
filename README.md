@@ -7,6 +7,6 @@ The datasets and generators are available at [here](https://cloud.nordlocker.com
 
 Security Code: cjiu2T
 
-As the link can expire, please email me at chewyukai@gmail.com to request for an update.
+As the link can expire, please reach me at chewyukai@gmail.com to request for an update.
 
 
