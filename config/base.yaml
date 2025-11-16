@@ -1,0 +1,35 @@
+cfg_data:
+    db_nm: 'data/IAM_paragraph'
+    max_range: 3
+    max_char: 350
+
+cfg_model:
+    encoder_hidden_dropout: 0 #.1
+    encoder_attn_dropout: 0 #.333
+
+    decoder_hidden_dropout: 0 #.1
+    decoder_attn_dropout: 0 #.333
+    decoder_layer_dropout: 0 #.333
+       
+cfg_trainer:
+    ckpt: "microsoft/trocr-base-handwritten"
+    predict_with_generate: True
+    generation_num_beams: 1
+    generation_max_length: 300
+    evaluation_strategy: 'steps'
+    train_bs: 2
+    eval_bs: 8
+    num_workers: 8
+    num_train_epochs: 10
+    output_dir: 'ckpt/base'
+    logging_steps: 500
+    save_steps: 5000
+    eval_steps: 5000
+    metric_for_best_model: 'cer'
+    greater_is_better: False
+    
+    learning_rate: 0.00005 #5e-5
+    warmup_ratio: 0.1
+    weight_decay: 0.000001 #1e-6
+    lr_scheduler_type: 'cosine'
+    
