@@ -1,4 +1,4 @@
-# DecreasingWERParagraphHTRwithSyntheticData
+# Decreasing Word Error Rates in Paragraph Handwritten Text Recognition with Synthetic Data (ICASSP 2025)
 This repository is a public implementation of the paper: "Decreasing Word Error Rates in Paragraph Handwritten Text Recognition with Synthetic Data".
 
 The paper is available at [here](https://ieeexplore.ieee.org/iel8/10887540/10887541/10890316.pdf)
